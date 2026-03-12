@@ -1,5 +1,7 @@
 <?php
-$db_host="dev-db-server";
-$db_user="dev-user";
-$db_password="dev-password";
-?>
+return [
+'environment' => 'dev',
+'db_host' => 'localhost',
+'db_user' => 'devuser',
+'db_pass' => 'devpassword'
+];
